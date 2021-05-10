@@ -48,7 +48,7 @@ $(document).ready(function () {
         $container.isotope('layout');
     }); 
 
-    function changeFilter(selector) { $container.isotope({ filter: selector }); }
+    // function changeFilter(selector) { $container.isotope({ filter: selector }); }
 
     function goToPage(n) {
         currentPage = n;
